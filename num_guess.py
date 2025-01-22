@@ -3,13 +3,14 @@ def main():
     target = int(input("Enter the integer for the player to guess.\n"))
 
     # Initialize variables
-    guess = None
     attempts = 0
+    guess = None
 
-    # Loop until the user guesses correctly
+    print("Enter your guess.")  # Only show this once
+
     while guess != target:
         # Prompt the user for a guess
-        guess = int(input("Enter your guess.\n"))
+        guess = int(input())
         attempts += 1
 
         # Check if the guess is too high, too low, or correct
