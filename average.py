@@ -16,7 +16,7 @@ def main():
 
     # Print the average
     print("The average of those numbers is:")
-    print(f"{average:.1f}")
+    print(average) # No rounding or formatting
 
 
 if __name__ == "__main__":
