@@ -7,6 +7,6 @@ def without_duplicates(lst):
 
 # Example
 if __name__ == "__main__":
-    my_list = [8, 'hello', 8, True, -1000000.4, 'hello', 8]
+    my_list = [10, 'hi', 10, True, -50000.7, 'hi', 10]
     result = without_duplicates(my_list)
     print(result)
