@@ -1,14 +1,11 @@
-def multiply(a, b=1):
-    """Recursively multiplies two positive integers using addition."""
+def multiply(a, b):
     if b == 0:
-        return 0  # Base case: anything times 0 is 0
-    if b == 1:
-        return a  # Base case: anything times 1 is itself
+        return 0
+    else:
+        return a + multiply(a, b - 1)
 
-    return a + multiply(a, b - 1)
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 
-
-# Example usage
-if __name__ == "__main__":
-    result = multiply(a=7, b=4)  # Using keyword arguments
-    print(result)
+result = multiply(num1, num2)
+print("The product is", result)
