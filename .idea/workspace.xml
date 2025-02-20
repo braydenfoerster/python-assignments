@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f54131a6-f8cd-4feb-b582-1b62f7f2d85d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/multiply.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/word_length_std_dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/word_length_std_dev.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +333,8 @@
       <workItem from="1739407895394" duration="1862000" />
       <workItem from="1739848297092" duration="1263000" />
       <workItem from="1739853185856" duration="355000" />
-      <workItem from="1739853734067" duration="335000" />
+      <workItem from="1739853734067" duration="622000" />
+      <workItem from="1740021999722" duration="316000" />
     </task>
     <servers />
   </component>
@@ -384,7 +383,7 @@
     <SUITE FILE_PATH="coverage/average_py$without_duplicates.coverage" NAME="without_duplicates Coverage Results" MODIFIED="1738802534245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/average_py$list_of_primes_up_to.coverage" NAME="list_of_primes_up_to Coverage Results" MODIFIED="1739848378745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/average_py$change.coverage" NAME="change Coverage Results" MODIFIED="1737520663105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/average_py$word_length_std_dev.coverage" NAME="word_length_std_dev Coverage Results" MODIFIED="1739853199467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/average_py$word_length_std_dev.coverage" NAME="word_length_std_dev Coverage Results" MODIFIED="1739854120195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$favorite_animal.coverage" NAME="favorite_animal Coverage Results" MODIFIED="1736394390062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/average_py$randomcode.coverage" NAME="randomcode Coverage Results" MODIFIED="1738081430038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/average_py$num_guess.coverage" NAME="num_guess Coverage Results" MODIFIED="1737559093356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
