@@ -1,17 +1,14 @@
 def count_letters(s):
+    # Convert the string to uppercase
+    s = s.upper()
     letter_count = {}
-
-    for char in s:
-        if ('a' <= char <= 'z') or ('A' <= char <= 'Z'):  # Check if it's a letter
-            char = char.upper()  # Convert to uppercase
-            if char in letter_count:
-                letter_count[char] += 1  # count if the letter already exists
-            else:
-                letter_count[char] = 1  # Add letter to dictionary
-
+    # Loop through every letter in alphabet
+    for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+        count = s.count(letter)  # Get the number of times letter appears in s
+        if count > 0:  # Only add letters that appear at least once
+            letter_count[letter] = count
     return letter_count
 
-
-# Example usage
+# Example usage:
 if __name__ == "__main__":
     print(count_letters("AaBb"))  # Output: {'A': 2, 'B': 2}
